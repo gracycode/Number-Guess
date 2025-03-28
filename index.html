@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Guess My Number</h1>
+        <p id="header" class="message">I'm a number between 1 and 30</p>
+        <h4># of times you've guessed:<p id="guesses"></p></h4>
+        <form id="thegame" action="" method="get">
+          <fieldset>
+            <!-- <input type="text" pattern="\d*" id="guess" maxlength="2" /> -->
+             <!-- <div id="guess"></div> -->
+            <input type="number" id="guess" class="insertguess" maxlength="2">
+           <input type="button" value="Guess" class="inputguess" />
+          </fieldset>
+        </form>
+        <a href="#" id="new-game">New game</a>
+      </main>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+  <script src="app.js"></script> 
+</body>
+</html>
