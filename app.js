@@ -16,6 +16,7 @@ document.querySelector(".inputguess").addEventListener("click", function(){
         
     } else if (guess === number){
         document.querySelector(".message").innerText = "Congratulations! you guessed right";
+        document.querySelector("main").style.backgroundColor = "#00ff00";
         guessCount++;
         guessElement.textContent = guessCount;
         
